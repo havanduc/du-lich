@@ -1,0 +1,96 @@
+/* Thiết kế header */
+.header{
+    display:flex;
+    background-color:aliceblue;
+    justify-items: center;
+    justify-content: center;
+}
+
+.menu {
+    list-style-type: none;
+    margin: 5px;
+    padding: 15px 20px;
+    justify-items: center;
+    justify-content: center;
+    display:flex;
+}
+
+.menu li {
+    display: inline-block;
+    position: relative;
+}
+
+.menu li a {
+    color: black;
+    text-decoration: none;
+    padding: 10px 20px;
+    display: block;
+}
+
+.menu li:hover ul {
+    display: block;
+}
+
+.submenu {
+    display: none;
+    position: absolute;
+
+    list-style-type: none;
+    padding: 8px;
+}
+
+.submenu li {
+    display: block;
+}
+
+.submenu li a {
+    color:black;
+    text-decoration: none;
+    padding: 10px 20px;
+    display: block;
+    border-bottom: 1px solid rgb(179, 179, 146);
+    background-color: antiquewhite;
+}
+
+.menu li:hover .submenu {
+    display: block;
+}
+
+/* Thiết kế menu điều hướng */
+nav {
+    background-color: #444;
+    color: white;
+    padding: 10px;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+/* Thiết kế nội dung chính */
+main {
+    padding: 20px;
+}
+
+/* Thiết kế footer */
+footer{
+    background-color:cyan;
+    
+    }
+.gioithieu{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align:left;
+    margin:5px;
+
+}

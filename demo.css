@@ -1,0 +1,156 @@
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f3f3f3;
+    margin: 0;
+    padding: 0;
+}
+
+.header{
+    display:flex;
+    background-color:aliceblue;
+    justify-items: center;
+    justify-content: center;
+}
+
+.menu {
+    list-style-type: none;
+    margin: 5px;
+    padding: 15px 20px;
+    justify-items: center;
+    justify-content: center;
+    display:flex;
+}
+
+.menu li {
+    display: inline-block;
+    position: relative;
+}
+
+.menu li a {
+    color: black;
+    text-decoration: none;
+    padding: 10px 20px;
+    display: block;
+}
+
+.menu li:hover ul {
+    display: block;
+}
+
+.submenu {
+    display: none;
+    position: absolute;
+
+    list-style-type: none;
+    padding: 8px;
+}
+
+.submenu li {
+    display: block;
+}
+
+.submenu li a {
+    color:black;
+    text-decoration: none;
+    padding: 10px 20px;
+    display: block;
+    border-bottom: 1px solid rgb(179, 179, 146);
+    background-color: antiquewhite;
+}
+
+.menu li:hover .submenu {
+    display: block;
+}
+nav{
+    margin:5px;
+    padding:5px;
+    background-color: #f3f3f3;
+    display:block;
+
+
+}
+
+.can{
+    text-align: justify;
+    font-size: 13px;
+    padding-bottom: 8px;
+  
+    line-height: 18px;
+}
+a:hover{color:blue;
+    
+}
+.title{
+ 
+    color: #626262;
+    text-align: left;
+    font-family: times New Roman;
+    font-size: 21px;
+    font-weight: bold;
+    margin: 6px 0;
+    
+}
+article{
+    min-height:200px ;
+    width:70%;
+    background-color: #f3f3f3;
+    float:left;
+    font-family: Arial, sans-serif;
+    font-size: 15px ;
+}.sty{
+    text-align: center;
+
+}
+aside{
+    min-height:300px ;
+    width:30%;
+    background:#f3f3f3 ;
+    float:left;
+    
+
+}
+
+.lket{
+display:flex ;
+border-right: 1px solid #CCCCCC;
+float: left;
+margin-top: 14px;
+margin-left: 14px;
+padding-right: 10px;
+width: 530px;}
+.chulket{
+    color: #4c6300;
+    font-weight: bold;
+    padding: 3px 0 5px 5px;
+    margin-top: 5px;
+    
+}
+.lhe{
+    display:block;
+    padding:10px;
+    color:black;
+    text-align: center;
+    font-size: 25px;
+    font-family:  Times New Roman;
+}
+.sdt{
+    text-align: left;
+    padding:10px;
+    font-size: 20px;
+}
+
+footer{
+    background-color:cyan;
+    float: left;
+    padding-top: 10px;
+    text-align: center;
+    width: 1500px;
+    }
+    
+    .gioithieu{
+        font-family: Arial, Helvetica, sans-serif;
+        text-align:left;
+        margin:5px;
+    
+    }
